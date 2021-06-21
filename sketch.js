@@ -23,11 +23,11 @@ function setup(){
 
     tom = createSprite(870,600)
     tom.addAnimation("tomSleeping",tomImg1);
-    tom.scale=0.1;
+    tom.scale=0.2;
 
     jerry = createSprite(200,600)
     jerry.addAnimation("jerryStanding",jerryImg1);
-    jerry.scale=0.1;
+    jerry.scale=0.2;
     
 }
 
@@ -42,10 +42,10 @@ function draw() {
            tom.velocityX=0;
            tom.addAnimation("movingTom",tomImg3);
            tom.x=300;
-           tom.scale=0.1;
+           tom.scale=0.2;
            tom.changeAnimation("movingTom");
            jerry.addAnimation("jerryLastImage", jerryImg3);
-           jerry.scale=0.1;
+           jerry.scale=0.2;
            jerry.changeAnimation("jerryLastImage");
            
            
